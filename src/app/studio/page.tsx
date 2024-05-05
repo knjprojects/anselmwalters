@@ -26,8 +26,10 @@ export const viewport: Viewport = {
 
 export default function StudioPage() {
   return (
-    <div className="h-screen w-full items-center">
-      <Studio />;
+    <div className="h-screen flex flex-col items-center">
+      <div className="flex flex-grow ">
+        <Studio />;
+      </div>
     </div>
   );
 }
